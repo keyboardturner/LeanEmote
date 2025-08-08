@@ -1,0 +1,47 @@
+## Interface: 110200
+## Author: Keyboardturner
+## Version: @project-version@
+## Title: LeanEmote
+## Notes: Hides /lean broadcast text from other players and yourself
+## IconTexture: Interface/AddOns/LeanEmote/LeanEmoteIcon.blp
+
+## X-Curse-Project-ID: 1323274
+## X-Wago-ID: 96doyENO
+
+## Title-enUS: LeanEmote
+## Notes-enUS: Hides /lean broadcast text from other players and yourself
+## Title-frFR: LeanEmote
+## Notes-frFR: Masque le texte de l’émote d’inclinaison provenant des autres joueurs et de vous-même
+## Title-esES: LeanEmote
+## Notes-esES: Oculta el texto del gesto de inclinarse de otros jugadores y de ti mismo
+## Title-esMX: LeanEmote
+## Notes-esMX: Oculta el texto del gesto de inclinarse de otros jugadores y de ti mismo
+## Title-deDE: LeanEmote
+## Notes-deDE: Blendet den Neigungs-Emote-Text von anderen Spielern und dir selbst aus
+## Title-itIT: LeanEmote
+## Notes-itIT: Nasconde il testo dell’emote di inclinazione degli altri giocatori e di te stesso
+## Title-ptBR: LeanEmote
+## Notes-ptBR: Oculta o texto do gesto de inclinar de outros jogadores e de você mesmo
+## Title-ruRU: LeanEmote
+## Notes-ruRU: Скрывает текст эмоции «откинуться» от других игроков и от вас
+## Title-koKR: LeanEmote
+## Notes-koKR: 다른 플레이어와 자신의 기대기 감정 표현 문구를 숨깁니다
+## Title-zhCN: LeanEmote
+## Notes-zhCN: 隐藏来自其他玩家和自己的倚靠表情文字
+## Title-zhTW: LeanEmote
+## Notes-zhTW: 隱藏來自其他玩家和自己的倚靠表情文字
+
+## Category: Roleplay
+## Category-deDE: Rollenspiel
+## Category-esES: Juego de rol
+## Category-esMX: Juego de rol
+## Category-frFR: Jeu de rôle
+## Category-itIT: Gioco di Ruolo
+## Category-koKR: 롤플레잉
+## Category-ptBR: Interpretação de Papel
+## Category-ruRU: Ролевая игра
+## Category-zhCN: 角色扮演
+## Category-zhTW: 角色扮演
+
+
+LeanEmote.lua
