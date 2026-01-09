@@ -1,7 +1,15 @@
 
 SLASH_LEAN1 = EMOTE628_CMD1 or EMOTE628_CMD2;
 SlashCmdList["LEAN"] = function()
-	DoEmote("LEAN", "player");
+	if C_InstanceEncounter and C_InstanceEncounter.IsEncounterInProgress and C_InstanceEncounter.IsEncounterInProgress() then
+		return -- does not work with Midnight API
+	else
+		if C_ChatInfo and C_ChatInfo.PerformEmote then
+			C_ChatInfo.PerformEmote("LEAN", "player");
+		else
+			DoEmote("LEAN", "player");
+		end
+	end
 end
 
 local leanMessages = {
@@ -61,4 +69,4 @@ local function LeanEmoteFilter(self, event, msg, author, ...)
 	return false;
 end
 
-ChatFrame_AddMessageEventFilter("CHAT_MSG_TEXT_EMOTE", LeanEmoteFilter);
+ChatFrame_AddMessageEventFilter("CHAT_MSG_TEXT_EMOTE", LeanEmoteFilter); -- technically does not work in an encounter, but silently fails
