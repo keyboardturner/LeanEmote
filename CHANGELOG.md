@@ -1,3 +1,7 @@
+# 0.0.6
+
+Fix up some packager stuff
+
 # 0.0.5
 
 Adjusted for Midnight API changes (can't work during an Instance Encounter boss fight)
