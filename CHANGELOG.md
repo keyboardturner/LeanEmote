@@ -1,3 +1,7 @@
+# 0.0.7
+
+12.0.1 toc update
+
 # 0.0.6
 
 Fix up some packager stuff
